@@ -11,7 +11,7 @@
 Você pode clonar o projeto e rodá-lo localmente seguindo os passos abaixo
 
 1. git clone https://github.com/thaniagomes/form_2 para clonar o projeto!
-2. Abrir o arquivo formulario.html no navegador.
+2. Abrir o arquivo index.html no navegador.
 
 ### Explicação:
 
