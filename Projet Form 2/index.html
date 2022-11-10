@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no,
+			initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<link rel="stylesheet" href="css/style.css"> <link
+			href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'
+			type='text/css'>
+		<title>Formularios</title>
+	</head>
+
+	<body>
+		<div class="testbox">
+			<div>
+				<form action="">
+					<div class="banner">
+						<!--<h1>Yoga Application Form</h1>-->
+					</div>
+					<span>
+
+						<h1> AVALIAÇÃO DIÁRIA </h1>
+						<h2>Formulario - Avaliação Diária sobre o COVID-19</h2>
+					</span>
+
+					<div>
+						<!-- DATA -->
+						<div class="item">
+							<h3 class="fisrttitle">Informações Básicas:</h3>
+							<p>Data de Hoje:</p>
+							<input type="date" name="bdate" required/>
+							<i class="fas fa-calendar-alt"></i>
+						</div>
+
+						<!-- NOME DO TRABALHADOR -->
+						<div class="item">
+							<p>Qual é o seu nome ?</p>
+							<div class="name-item">
+								<input type="text" name="name" placeholder="Digite seu nome" />
+							</div>
+
+							<!-- PRIMEIRA PERGUNTA -->
+							<div class="question">
+								<h3>Dados sobre viagens e eventos:</h3>
+								<p>Viajou ou esteve em eventos/locais com aglomerações nos últimos 7
+									dias?(Cultos, manifestações, festas, etc)</p>
+								<div class="question-answer">
+									<div>
+										<input type="radio" value="none" id="radio_1" name="gender" />
+										<label for="radio_1" class="radio"><span>Sim</span></label>
+									</div>
+									<div>
+										<input type="radio" value="none" id="radio_2" name="gender" />
+										<label for="radio_2" class="radio"><span>Não</span></label>
+									</div>
+								</div>
+							</div>
+
+
+
+
+							<!-- SEGUNDA PERGUNTA -->
+							<div class="question">
+								<h3>Contato:</h3>
+								<p>Teve contato com qualquer pessoa com sintomas de gripe, caso suspeito
+									ou confirmado de COVID-19 nos últimos 7 dias?</p>
+								<div class="question-answer">
+									<div>
+										<input type="radio" value="none" id="radio_3" name="gender" />
+										<label for="radio_3" class="radio"><span>Sim</span></label>
+									</div>
+									<div>
+										<input type="radio" value="none" id="radio_4" name="gender" />
+										<label for="radio_4" class="radio"><span>Não</span></label>
+									</div>
+									<input type="text" id="radio_6" name="radio_6">
+									<label  for="radio_6"> <h3> Relatar: </h3></label>
+								</div>
+							</div>
+
+							<!-- TERCEIRA PERGUNTA -->
+							<div class="question">
+								<p>Sintomas relatados</p>
+								<div class="question-answer">
+									<div>
+										<input type="checkbox" value="none" id="checkbox_1" name="contact1" />
+										<label for="checkbox_1" class="checkbox"><span>Febre</span></label>
+									</div>
+									<div>
+										<input type="checkbox" value="none" id="checkbox_2" name="contact2" />
+										<label for="checkbox_2" class="checkbox"><span>Tosse</span></label>
+									</div>
+									<div>
+										<input type="checkbox" value="none" id="checkbox_3" name="contact3" />
+										<label for="checkbox_3" class="checkbox"><span>Dor de Garganta</span></label>
+									</div>
+									<div>
+										<input type="checkbox" value="none" id="checkbox_3" name="contact3" />
+										<label for="checkbox_3" class="checkbox"><span>Cefaleia(dor de cabeça)</span></label>
+									</div>
+									<div>
+										<input type="checkbox" value="none" id="checkbox_3" name="contact3" />
+										<label for="checkbox_3" class="checkbox"><span>Coriza</span></label>
+									</div>
+									<div>
+										<input type="checkbox" value="none" id="checkbox_3" name="contact3" />
+										<label for="checkbox_3" class="checkbox"><span>Não tenho sintomas</span></label>
+									</div>
+									<label for="outros2"> <h3> Outros: </h3></label>
+ 									<input type="text" id="outros2" name="outros2">
+									
+
+								</div>
+							</div> 
+								 
+								
+
+							</div>
+
+							<!-- ASSINATURA DO TRABALHADOR -->
+
+							<h3 class="termo">TERMO DE COMPROMISSO:</h3>
+							<div>
+								<input type="checkbox" name="termos" id="termos" value="true">
+								<label for="termos"> &nbsp &nbsp  &nbsp ESTOU DE ACORDO COM AS INFORMAÇÕES E CONSTO QUE AS MESMAS AQUI PRESENTES SÃO VERDADEIRAS.</label>
+							</div>
+
+
+							<!-- ENVIAR -->
+							<div class>
+								<h4>Clique em enviar se concorda com as informações!</h4>
+								<input type="submit" id="btn-submit" value="Enviar">
+							</div>
+
+
+						</div>
+					</form>
+
+
+					<h5><strong>Nota:</strong> As informações foram enviadas automaticamente para o email do RH.</h5>
+
+				</div>
+			</div>
+
+		</body>
+	</html>
